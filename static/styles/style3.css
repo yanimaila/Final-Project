@@ -1,0 +1,146 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Plus Jakarta Sans',sans=serif;
+    background-color: #ffffff;
+}
+
+/*navbar*/
+nav {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #7B8FB2;
+    box-shadow: -1px -7px 20px 0px bisque;
+}
+
+nav ul {
+    position: relative;
+    top: 20px;
+    margin: 0;
+    float: right;
+    right: 10%;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica", sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #2E4C6D;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #F5FFFA;
+    cursor: pointer;
+    font-weight: bold;
+}
+.menu-mobile{
+    position: relative;
+    float: right;
+    display: none;
+}
+.menu-mobile a{
+    color: bisque;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid beige;
+}
+
+/* deskripsi */
+section#prediksi{
+    position: relative;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+     margin-top: 15px;
+    border-radius: 6px;
+    background-color: #B1C5E6;
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
+    padding: 20px;
+}
+
+/* form */
+.bg-blue{
+    background-color:#7B8FB2;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    color: rgb(5, 16, 44);
+    font-weight: 600;
+}
+
+section#input-par{
+    position: relative;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: #B1C5E6;
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
+    padding: 30px;
+}
+#input-par .form{
+    width: 100%;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+label{
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    color: rgb(5, 16, 44);
+    font-weight: 600;
+}
+input{
+    font-family: "Helvetica", sans-serif;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #2E4C6D;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+p{
+    font-family: "Helvetica", sans-serif;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+h2 {
+   color: rgb(5, 16, 44);
+   margin-left: 20px;
+   text-align: left;
+   font-family: "Helvetica", sans-serif;
+   }
+h4 {
+   color: rgb(5, 5, 5);
+   margin-left: 20px;
+   text-align: left;
+   font-family: "Helvetica", sans-serif;
+   }
+.header img{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
